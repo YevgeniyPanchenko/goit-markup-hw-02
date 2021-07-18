@@ -1,0 +1,116 @@
+body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+:root {
+  --white-color: #fff;
+  --grey-color: #757575;
+}
+.list-off {
+  list-style: none;
+}
+.decor-off {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.white-background {
+  background-color: var(--white-color);
+}
+.grey-backround {
+  background-color: #f5f4fa;
+}
+.dark-background {
+  background-color: #2f303a;
+}
+
+.header-contact {
+  color: var(--grey-color);
+}
+.header-link,
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.footer-link,
+.dignity-subtitle,
+.footer-location {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-location {
+  color: var(--white-color);
+}
+.web-studio {
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.order {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-developers {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-subtitle {
+  color: var(--grey-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+.dignity-subtitle {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* portfolio */
+
+.button-title {
+  cursor: pointer;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.projects-subtitle {
+  color: var(--grey-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+.projects-names {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
